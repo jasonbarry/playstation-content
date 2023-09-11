@@ -1,0 +1,42 @@
+{
+  "pageURL": "www.playstation.com/en-us/",
+  "pageTitle": "Sony PlayStation",
+  "components": [
+    {
+      "type": "ExperienceFragment",
+      "format": "HTML",
+      "reference": "/content/experience-fragments/sony/sony-bar.html"
+    },
+    {
+      "type": "ExperienceFragment",
+      "format": "HTML",
+      "reference": "/content/experience-fragments/sony/nav.html"
+    },
+    {
+      "type": "ResponsiveGrid",
+      "children": [
+        {
+          "type": "ResponsiveGrid",
+          "children": [
+            {
+              "type": "Slides",
+              "format": "JSON",
+              "reference": "/content/json/slides.json"
+            },
+            {
+              "type": "ExperienceFragment",
+              "format": "HTML",
+              "reference": "/content/experience-fragments/sony/shop.html",
+              "children": ["/content/experience-fragments/sony/shop-items.html"]
+            },
+            {
+              "type": "ExperienceFragment",
+              "format": "HTML",
+              "reference": "/content/experience-fragments/sony/footer.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
