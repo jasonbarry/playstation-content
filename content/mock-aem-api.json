@@ -10,7 +10,12 @@
     {
       "type": "ExperienceFragment",
       "format": "HTML",
-      "reference": "/content/experience-fragments/sony/nav.html"
+      "reference": "/content/experience-fragments/sony/nav.html",
+      "style": {
+        "position": "sticky",
+        "top": 0,
+        "zIndex": 999999,
+      }
     },
     {
       "type": "ResponsiveGrid",
